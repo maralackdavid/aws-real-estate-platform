@@ -57,7 +57,7 @@ flowchart TD
 
 ### 2. High-Resolution Architecture Blueprint
 
-![AWS Real Estate Architecture Blueprint](./real_estate_aws_architecture_v2.png)
+![AWS Real Estate Architecture Blueprint](./aws_real_estate_architecture.png)
 
 ---
 

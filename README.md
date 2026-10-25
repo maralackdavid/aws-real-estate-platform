@@ -31,6 +31,41 @@ Applying CPMAI Phase I (*Business Understanding*) discovery craft, this project 
 **Strategic Decision:** Option B (AWS Hybrid Build) was selected for its superior long-term TCO, zero vendor lock-in, and native compatibility with enterprise data governance standards.
 
 ---
+
+## Responsible AI & CPMAI Phase Gate Governance
+
+This project adheres strictly to the **Cognitive Project Management for AI (CPMAI)** 6-Phase Lifecycle and Phase Gate controls:
+
+* **Gate 1 (Business & Data Feasibility):** Verified DIKUW data readiness and established baseline KPIs prior to model prototyping.
+* **Gate 2 (Model & Security Testing):** Enforced 100% IAM RBAC data isolation and verified citation veracity (>95%) against golden evaluation sets.
+* **Gate 3 (Financial & FinOps Validation):** Confirmed 3-Year TCO advantage over SaaS alternatives and validated serverless compute budgets under FinOps limits.
+* **Gate 4 (Operationalization Readiness):** Deployed AWS Step Functions HITL state machines for deterministic financial threshold checks before production go-live.
+
+----
+
+## Prototype Performance & Evaluation Benchmarks
+
+*Evaluated using production-simulated property datasets containing 10,000+ lease and vendor records.*
+
+| Benchmark Metric | Target SLA | Measured Result | Evaluation Method |
+| :--- | :--- | :--- | :--- |
+| **Retrieval Precision@5** | > 88.0% | **92.4%** | Ragas Framework / Golden Dataset Evaluation |
+| **Query Response Latency (P95)** | < 2.00s | **1.38s** | AWS X-Ray Distributed Tracing |
+| **IAM RBAC Data Isolation** | 100% | **100.0%** | Multi-Tenant Authorization Testing |
+| **Citation Coverage / Veracity** | > 95.0% | **96.1%** | Automated Source Passage Matching |
+| **HITL Policy Compliance** | 100% | **100.0%** | AWS Step Functions Gate Audit Logs |
+
+---
+
+## Multi-Stakeholder ROI Scorecard
+
+* **CFO / Financial Leadership**: Realizes a **7.5-month payback period** with an annual net operating benefit of **~$355,000**, reducing SaaS vendor licensing costs by 60%.
+* **COO / Regional Property Directors**: Reduces lease audit cycles from days to seconds, enabling 85% faster contract onboarding and vendor verification.
+* **CIO / CTO**: Ensures zero data pipeline lock-in, >99.5% service uptime SLA, and complete ownership of enterprise AI intellectual property.
+* **Legal & Compliance**: Guarantees auditability through strict RBAC data boundaries and deterministic human-in-the-loop gates for high-risk decisions.
+
+---
+
 ## System Architecture
 
 ### 1. High-Resolution Architecture Blueprint
@@ -91,42 +126,6 @@ flowchart TD
 ### 4. Data Lakehouse & Executive Analytics
 * **AWS Glue & Lake Formation**: Automatically registers extracted operational metadata into a centralized catalog.
 * **Amazon Athena & QuickSight**: Enables serverless SQL querying and interactive executive dashboards tracking Net Operating Income (NOI), lease expiration schedules, and vendor performance SLAs.
-
----
-
-## 📊 Prototype Performance & Evaluation Benchmarks
-
-*Evaluated using production-simulated property datasets containing 10,000+ lease and vendor records.*
-
-| Benchmark Metric | Target SLA | Measured Result | Evaluation Method |
-| :--- | :--- | :--- | :--- |
-| **Retrieval Precision@5** | > 88.0% | **92.4%** | Ragas Framework / Golden Dataset Evaluation |
-| **Query Response Latency (P95)** | < 2.00s | **1.38s** | AWS X-Ray Distributed Tracing |
-| **IAM RBAC Data Isolation** | 100% | **100.0%** | Multi-Tenant Authorization Testing |
-| **Citation Coverage / Veracity** | > 95.0% | **96.1%** | Automated Source Passage Matching |
-| **HITL Policy Compliance** | 100% | **100.0%** | AWS Step Functions Gate Audit Logs |
-
----
-
-## Multi-Stakeholder ROI Scorecard
-
-* **CFO / Financial Leadership**: Realizes a **7.5-month payback period** with an annual net operating benefit of **~$355,000**, reducing SaaS vendor licensing costs by 60%.
-* **COO / Regional Property Directors**: Reduces lease audit cycles from days to seconds, enabling 85% faster contract onboarding and vendor verification.
-* **CIO / CTO**: Ensures zero data pipeline lock-in, >99.5% service uptime SLA, and complete ownership of enterprise AI intellectual property.
-* **Legal & Compliance**: Guarantees auditability through strict RBAC data boundaries and deterministic human-in-the-loop gates for high-risk decisions.
-
----
-
-
-
-## Responsible AI & CPMAI Phase Gate Governance
-
-This project adheres strictly to the **Cognitive Project Management for AI (CPMAI)** 6-Phase Lifecycle and Phase Gate controls:
-
-* **Gate 1 (Business & Data Feasibility):** Verified DIKUW data readiness and established baseline KPIs prior to model prototyping.
-* **Gate 2 (Model & Security Testing):** Enforced 100% IAM RBAC data isolation and verified citation veracity (>95%) against golden evaluation sets.
-* **Gate 3 (Financial & FinOps Validation):** Confirmed 3-Year TCO advantage over SaaS alternatives and validated serverless compute budgets under FinOps limits.
-* **Gate 4 (Operationalization Readiness):** Deployed AWS Step Functions HITL state machines for deterministic financial threshold checks before production go-live.
 
 ---
 

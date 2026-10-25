@@ -1,9 +1,5 @@
 # Real Estate Intelligent Lease & Operations Analytics Platform
 
-An enterprise-grade, **Zero-Trust AWS Generative AI & Lakehouse Platform** engineered to automate document intelligence, vendor spend guardrails, and operational analytics across enterprise real estate portfolios.
-
-Built on **Amazon Bedrock AgentCore**, **OpenSearch Serverless RAG**, **AWS Step Functions HITL State Machines**, and an **AWS Data Lakehouse (Glue, Athena, QuickSight)**, this architecture delivers secure role-based document retrieval, automated lease contract parsing, and financial risk controls.
-
 ---
 
 ## Executive Summary & Strategic Context
@@ -14,8 +10,14 @@ This platform bridges unstructured property data with executive decision-making 
 * **7.5-Month Payback Period** with an estimated **$355,000+ annual operational savings**.
 * **200%+ 2-Year ROI** by eliminating manual contract audits and reducing vendor invoice processing overhead by 85%.
 * **Zero-Trust RBAC Isolation**, ensuring property managers, regional leads, and legal counsel only access document passages permitted by their explicit IAM security roles.
+----
 
----
+An enterprise-grade, **Zero-Trust AWS Generative AI & Lakehouse Platform** engineered to automate document intelligence, vendor spend guardrails, and operational analytics across enterprise real estate portfolios.
+
+Built on **Amazon Bedrock AgentCore**, **OpenSearch Serverless RAG**, **AWS Step Functions HITL State Machines**, and an **AWS Data Lakehouse (Glue, Athena, QuickSight)**, this architecture delivers secure role-based document retrieval, automated lease contract parsing, and financial risk controls.
+
+----
+
 ## Problem Discovery & 3-Year Build vs. Buy vs. Partner TCO
 
 Applying CPMAI Phase I (*Business Understanding*) discovery craft, this project evaluated three deployment models for real estate portfolio AI transformation:

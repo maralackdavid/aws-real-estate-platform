@@ -1,7 +1,5 @@
 # Real Estate Intelligent Lease & Operations Analytics Platform
 
----
-
 ## Executive Summary & Strategic Context
 
 Enterprise real estate investment and property management organizations handle thousands of unstructured documents—lease agreements, vendor invoices, due diligence reports, maintenance logs, and regional compliance filings. Property managers and asset leaders spend thousands of manual hours searching across decentralized silos, leading to delayed decision-making, vendor overcharges, and operational inefficiencies.

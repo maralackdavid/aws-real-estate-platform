@@ -117,12 +117,16 @@ flowchart TD
 
 ---
 
-## CPMAI Phase Gate Governance Framework
 
-1. **Phase 1: Business Understanding**: Problem discovery, build-vs-buy TCO evaluation, and multi-stakeholder alignment.
-2. **Phase 2: Data Understanding & Preparation**: Schema design, OCR chunking strategies, and Lake Formation security policies.
-3. **Phase 3: Model & Pipeline Engineering**: OpenSearch Serverless indexing, Titan embedding optimization, and Claude Sonnet RAG orchestration.
-4. **Phase 4: Operationalization & Monitoring**: CloudWatch logging, HITL Step Functions deployment, and QuickSight executive dashboard integration.
+
+## Responsible AI & CPMAI Phase Gate Governance
+
+This project adheres strictly to the **Cognitive Project Management for AI (CPMAI)** 6-Phase Lifecycle and Phase Gate controls:
+
+* **Gate 1 (Business & Data Feasibility):** Verified DIKUW data readiness and established baseline KPIs prior to model prototyping.
+* **Gate 2 (Model & Security Testing):** Enforced 100% IAM RBAC data isolation and verified citation veracity (>95%) against golden evaluation sets.
+* **Gate 3 (Financial & FinOps Validation):** Confirmed 3-Year TCO advantage over SaaS alternatives and validated serverless compute budgets under FinOps limits.
+* **Gate 4 (Operationalization Readiness):** Deployed AWS Step Functions HITL state machines for deterministic financial threshold checks before production go-live.
 
 ---
 

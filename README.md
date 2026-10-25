@@ -16,10 +16,28 @@ This platform bridges unstructured property data with executive decision-making 
 * **Zero-Trust RBAC Isolation**, ensuring property managers, regional leads, and legal counsel only access document passages permitted by their explicit IAM security roles.
 
 ---
+## Problem Discovery & 3-Year Build vs. Buy vs. Partner TCO
 
+Applying CPMAI Phase I (*Business Understanding*) discovery craft, this project evaluated three deployment models for real estate portfolio AI transformation:
+
+| Evaluation Criteria | Option A: Off-the-Shelf SaaS (Buy) | Option B: Custom AWS Hybrid Build | Option C: Partner Outsourcing |
+| :--- | :--- | :--- | :--- |
+| **3-Year Total Cost of Ownership (TCO)** | 50,000+ (50k/yr recurring per seat) | **35,000** (20k initial + ~k/yr ops) | 80,000+ (25k/yr retainer) |
+| **Data Ownership & IP Rights** | Third-party vendor lock-in | **100% Enterprise IP & Data Control** | Shared partner lock-in |
+| **Security & RBAC Controls** | Coarse tenant-level security | **Granular IAM & Passage-Level Isolation** | Partner-managed access |
+| **Custom Integration** | Rigid proprietary APIs | **Native Lakehouse (Glue / Athena / QuickSight)** | Custom API wrappers |
+| **3-Year Net Savings** | Baseline | **+15,000 TCO Advantage** | +0,000 |
+
+**Strategic Decision:** Option B (AWS Hybrid Build) was selected for its superior long-term TCO, zero vendor lock-in, and native compatibility with enterprise data governance standards.
+
+---
 ## System Architecture
 
-### 1. Interactive Architecture Pipeline (Mermaid)
+### 1. High-Resolution Architecture Blueprint
+
+![AWS Real Estate Architecture Blueprint](./aws_real_estate_architecture.png)
+
+### 2. Interactive Architecture Pipeline (Mermaid)
 
 ```mermaid
 flowchart TD
@@ -54,26 +72,6 @@ flowchart TD
     style HITL fill:#fff3cd,stroke:#ffc107,stroke-width:2px
     style LAKEHOUSE fill:#e8f5e9,stroke:#198754,stroke-width:2px
 ```
-
-### 2. High-Resolution Architecture Blueprint
-
-![AWS Real Estate Architecture Blueprint](./aws_real_estate_architecture.png)
-
----
-
-## Problem Discovery & 3-Year Build vs. Buy vs. Partner TCO
-
-Applying CPMAI Phase I (*Business Understanding*) discovery craft, this project evaluated three deployment models for real estate portfolio AI transformation:
-
-| Evaluation Criteria | Option A: Off-the-Shelf SaaS (Buy) | Option B: Custom AWS Hybrid Build | Option C: Partner Outsourcing |
-| :--- | :--- | :--- | :--- |
-| **3-Year Total Cost of Ownership (TCO)** | 50,000+ (50k/yr recurring per seat) | **35,000** (20k initial + ~k/yr ops) | 80,000+ (25k/yr retainer) |
-| **Data Ownership & IP Rights** | Third-party vendor lock-in | **100% Enterprise IP & Data Control** | Shared partner lock-in |
-| **Security & RBAC Controls** | Coarse tenant-level security | **Granular IAM & Passage-Level Isolation** | Partner-managed access |
-| **Custom Integration** | Rigid proprietary APIs | **Native Lakehouse (Glue / Athena / QuickSight)** | Custom API wrappers |
-| **3-Year Net Savings** | Baseline | **+15,000 TCO Advantage** | +0,000 |
-
-**Strategic Decision:** Option B (AWS Hybrid Build) was selected for its superior long-term TCO, zero vendor lock-in, and native compatibility with enterprise data governance standards.
 
 ---
 

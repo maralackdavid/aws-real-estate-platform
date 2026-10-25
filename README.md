@@ -61,26 +61,19 @@ flowchart TD
 
 ---
 
-## Problem Discovery & Build vs. Buy vs. Partner TCO
+## Problem Discovery & 3-Year Build vs. Buy vs. Partner TCO
 
-Applying CPMAI Phase I (Business Understanding) frameworks, off-the-shelf commercial real estate SaaS platforms introduce recurring per-seat licensing costs, data siloing, and strict vendor lock-in.
+Applying CPMAI Phase I (*Business Understanding*) discovery craft, this project evaluated three deployment models for real estate portfolio AI transformation:
 
-```
-+-----------------------------------------------------------------------------------+
-|                            3-YEAR TCO EVALUATION MATRIX                           |
-+--------------------------+--------------------+-------------------+---------------+
-| Cost Category            | SaaS Vendor (Buy)  | Outsource (Partner)| AWS Hybrid Build|
-+--------------------------+--------------------+-------------------+---------------+
-| Upfront Capital (CAPEX)  | $25,000            | $50,000           | $45,000       |
-| Annual Licensing/Infra   | $140,000 / year    | $110,000 / year   | $30,000 / year|
-| Maintenance & Support    | Included (Rigid)   | $35,000 / year    | $15,000 / year|
-| Data Ownership & IP      | Vendor Locked      | Shared IP         | 100% Owned    |
-+--------------------------+--------------------+-------------------+---------------+
-| 3-Year Total Cost        | $445,000           | $485,000          | $180,000      |
-+--------------------------+--------------------+-------------------+---------------+
-| NET 3-YEAR SAVINGS       | BASELINE           | -$40,000          | +$265,000     |
-+--------------------------+--------------------+-------------------+---------------+
-```
+| Evaluation Criteria | Option A: Off-the-Shelf SaaS (Buy) | Option B: Custom AWS Hybrid Build | Option C: Partner Outsourcing |
+| :--- | :--- | :--- | :--- |
+| **3-Year Total Cost of Ownership (TCO)** | 50,000+ (50k/yr recurring per seat) | **35,000** (20k initial + ~k/yr ops) | 80,000+ (25k/yr retainer) |
+| **Data Ownership & IP Rights** | Third-party vendor lock-in | **100% Enterprise IP & Data Control** | Shared partner lock-in |
+| **Security & RBAC Controls** | Coarse tenant-level security | **Granular IAM & Passage-Level Isolation** | Partner-managed access |
+| **Custom Integration** | Rigid proprietary APIs | **Native Lakehouse (Glue / Athena / QuickSight)** | Custom API wrappers |
+| **3-Year Net Savings** | Baseline | **+15,000 TCO Advantage** | +0,000 |
+
+**Strategic Decision:** Option B (AWS Hybrid Build) was selected for its superior long-term TCO, zero vendor lock-in, and native compatibility with enterprise data governance standards.
 
 ---
 
